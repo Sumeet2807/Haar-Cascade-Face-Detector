@@ -1,0 +1,11 @@
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/8.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/11.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/5.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/7.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/3.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/6.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/2.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/4.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/10.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/1.jpg
+/home/developer/Documents/Axelta/Haar_training/neg/Neg_parent_images/9.jpg
