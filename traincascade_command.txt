@@ -1,0 +1,9 @@
+opencv_traincascade -data /home/developer/Documents/Axelta/Haar_training/cascade -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -bg /home/developer/Documents/Axelta/Haar_training/neg/neg.txt -numPos 270 -numNeg 3000 -numStages 10 -numThreads 3 -w 24 -h 24
+
+
+ opencv_createsamples -info /home/developer/Documents/Axelta/Haar_training/test_pos1.txt -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -num 308 -w 24 -h 24
+
+
+
+opencv_traincascade -data /home/developer/Documents/Axelta/Haar_training/cascade -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -bg /home/developer/Do^Cments/Axelta/Haar_training/neg/Neg_parent_images/neg_parents.txt -numPos 300 -numNeg 1500 -numStages 15 -numThreads 4 -w 28 -h 28
+
