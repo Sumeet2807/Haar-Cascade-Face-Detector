@@ -1,9 +1,29 @@
-opencv_traincascade -data /home/developer/Documents/Axelta/Haar_training/cascade -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -bg /home/developer/Documents/Axelta/Haar_training/neg/neg.txt -numPos 270 -numNeg 3000 -numStages 10 -numThreads 3 -w 24 -h 24
+opencv_traincascade -data /home/ubuntu/projects/face_detector_cascade/cascade -vec /home/ubuntu/projects/face_detector_cascade/vector.vec -bg /home/ubuntu/projects/face_detector_cascade/neg/neg.txt -numPos 270 -numNeg 3000 -numStages 10 -numThreads 3 -w 24 -h 24
 
 
- opencv_createsamples -info /home/developer/Documents/Axelta/Haar_training/test_pos1.txt -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -num 308 -w 24 -h 24
+ 
+
+opencv_createsamples -info /home/ubuntu/projects/face_detector_cascade/test_pos1.txt -vec /home/ubuntu/projects/face_detector_cascade/vector.vec -num 700 -w 28 -h 28
 
 
 
-opencv_traincascade -data /home/developer/Documents/Axelta/Haar_training/cascade -vec /home/developer/Documents/Axelta/Haar_training/vector.vec -bg /home/developer/Do^Cments/Axelta/Haar_training/neg/Neg_parent_images/neg_parents.txt -numPos 300 -numNeg 1500 -numStages 15 -numThreads 4 -w 28 -h 28
 
+
+
+
+
+opencv_traincascade -data /home/ubuntu/projects/face_detector_cascade/cascade -vec /home/ubuntu/projects/face_detector_cascade/vector.vec -bg /home/ubuntu/projects/face_detector_cascade/neg/neg.txt -numPos 500 -numNeg 3000 -numStages 15 -numThreads 4 -w 28 -h 28
+
+
+
+
+
+
+
+
+
+python neg_descr.py /home/ubuntu/projects/face_detector_cascade/neg/Neg_parent_images /home/ubuntu/projects/face_detector_cascade/neg/neg.txt
+
+
+
+opencv_traincascade -data /home/ubuntu/projects/face_detector_cascade/cascade -vec /home/ubuntu/projects/face_detector_cascade/vector.vec -bg /home/ubuntu/projects/face_detector_cascade/neg/neg.txt -numPos 500 -numNeg 3000 -numStages 15 -numThreads 4 -w 28 -h 28
