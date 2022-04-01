@@ -1,4 +1,4 @@
-# face_detector_cascade
+# Haar Cascade Face Detector
 
 
 Haar feature based cascaded face-detector. 
